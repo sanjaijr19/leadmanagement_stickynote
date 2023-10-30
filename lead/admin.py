@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import Lead,Lead_Source
+from .models import Lead,LeadSource
 # Register your models here.
 admin.site.register(Lead)
-admin.site.register(Lead_Source)
+admin.site.register(LeadSource)
